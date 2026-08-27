@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #91b6ff;
+    background: #f4f6f8;
     color: #18212f;
     line-height: 1.6;
 }
@@ -125,13 +125,13 @@ select:focus {
     font-size: 13px;
 }
 
-/* ---------- Navbar ---------- */
+/* Navbar */
 
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: #0f172a;
+    background: #254286;
     color: #fff;
     box-shadow: 0 4px 18px rgba(15, 23, 42, 0.18);
 }
@@ -177,7 +177,7 @@ select:focus {
     background: #2563eb;
 }
 
-/* ---------- Common Layout ---------- */
+/* Common Layout */
 
 .container {
     width: min(1180px, 92%);
@@ -216,7 +216,7 @@ select:focus {
     margin-bottom: 28px;
 }
 
-/* ---------- Hero ---------- */
+/*Hero*/
 
 .hero {
     padding: 80px 0;
@@ -257,7 +257,7 @@ select:focus {
 .secondary-button {
     display: inline-block;
     padding: 13px 18px;
-    border: 1px solid #93c5fd;
+    border: 1px solid #88bcf8;
     border-radius: 10px;
     color: #fff;
     font-weight: 700;
@@ -290,7 +290,7 @@ select:focus {
     display: block;
     font-size: 30px;
 }
-/* ================= TOP RECRUITERS ================= */
+/*recruiters*/
 
 .recruiters-section {
     padding: 70px 0;
@@ -378,7 +378,7 @@ select:focus {
 }
 
 
-/* ================= RESPONSIVE DESIGN ================= */
+/*RESPONSIVE DESIGN*/
 
 @media (max-width: 900px) {
 
@@ -421,7 +421,7 @@ select:focus {
     }
 
 }
-/* ---------- Cards ---------- */
+/*Cards*/
 
 .card-grid {
     display: grid;
@@ -465,7 +465,7 @@ select:focus {
     font-weight: 800;
 }
 
-/* ---------- College Cards ---------- */
+/*College Cards*/
 
 .college-grid {
     display: grid;
@@ -480,11 +480,11 @@ select:focus {
 
 .college-top {
     height: 135px;
-    background: linear-gradient(135deg, #1d4ed8, #60a5fa);
+    background: linear-gradient(135deg, #3564f0, #60a5fa);
     display: flex;
     align-items: flex-end;
     padding: 20px;
-    color: #fff;
+    color: #f6f2f2;
 }
 
 .college-top.green {
@@ -536,7 +536,7 @@ select:focus {
     text-decoration: underline;
 }
 
-/* ---------- Comparison Table ---------- */
+/*Comparison Table*/
 
 .table-wrap {
     overflow-x: auto;
@@ -572,7 +572,7 @@ select:focus {
     font-weight: 700;
 }
 
-/* ---------- Forms / Dashboard ---------- */
+/*Forms / Dashboard*/
 
 .filter-box {
     background: #fff;
@@ -677,7 +677,7 @@ footer a:hover {
     text-align: center;
 }
 
-/* ---------- Animations ---------- */
+/*Animations*/
 
 @keyframes fadeUp {
     from {
@@ -694,7 +694,7 @@ footer a:hover {
     animation: fadeUp 0.7s ease both;
 }
 
-/* ---------- Responsive ---------- */
+/*Responsive*/
 
 @media (max-width: 900px) {
     .hero-grid,
