@@ -652,18 +652,29 @@ select:focus {
 /*contact-ticker-content*/
 .contact-ticker {
     background-color: #254286;
+    overflow: hidden;
 }
 .contact-ticker-content {
     background-color: #254286;
     padding: 15px;
     font-size: 20px;
     color: white;
-    display: inline-block;
+    display: inline-flex;
     position: relative;
     align-items: center;
     animation: contactscroll 15s infinite linear;
     white-space: nowrap;
+    width: max-content;
 }
+@keyframes contactscroll {
+    from {
+        transform: translatex(0);
+    }
+    to {
+        transform: translatex(-100%);
+    }
+}
+
 
 /* footer */
 
@@ -722,14 +733,6 @@ footer a:hover {
     animation: fadeUp 0.7s ease both;
 }
 
-@keyframes contactscroll {
-    from {
-        transform: translate(0);
-    }
-    to {
-        transform: translate(-50%)
-    }
-}
 
 /*Responsive*/
 
