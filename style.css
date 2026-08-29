@@ -238,15 +238,18 @@ select:focus {
     font-size: 56px;
     line-height: 1.08;
     margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.7);
     color:#1b2358
 }
 
 .hero p {
-    color: #402f83;
+    color: #1b2358;
     max-width: 650px;
     font-size: 18px;
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(30px);
     border-radius: 10px;
 }
 
@@ -650,32 +653,6 @@ select:focus {
     background: #fee2e2;
     color: #991b1b;
 }
-/*contact-ticker-content*/
-.contact-ticker {
-    background-color: #254286;
-    overflow: hidden;
-}
-.contact-ticker-content {
-    background-color: #254286;
-    padding: 15px;
-    font-size: 20px;
-    color: white;
-    display: inline-flex;
-    position: relative;
-    align-items: center;
-    animation: contactscroll 15s infinite linear;
-    white-space: nowrap;
-    width: max-content;
-}
-@keyframes contactscroll {
-    from {
-        transform: translatex(0);
-    }
-    to {
-        transform: translatex(-100%);
-    }
-}
-
 
 /* footer */
 
@@ -859,7 +836,7 @@ footer a:hover {
     padding: 14px;
     border: 1px solid #254286;
     border-radius: 8px;
-    background-color: #5e8fff;
+    background-color: #2563eb;
     color: white;
     font-size: 17px;
     font-weight: 500;
