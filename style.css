@@ -33,7 +33,8 @@ img {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    background: linear-gradient(135deg, #102a43, #1d4ed8, #60a5fa);
+    background-image: url("college_homepage_bg.jpg");
+    background-size: cover;
 }
 
 .login-box {
@@ -237,15 +238,15 @@ select:focus {
     font-size: 56px;
     line-height: 1.08;
     margin-bottom: 20px;
-    color:#22469b
+    color:#1b2358
 }
 
 .hero p {
-    color: #0e2966;
-    font-style: bold;
+    color: #402f83;
     max-width: 650px;
     font-size: 18px;
-    background: rgba(255,255,255,0.6);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
     border-radius: 10px;
 }
 
@@ -281,11 +282,12 @@ select:focus {
     border-radius: 20px;
     padding: 28px;
     backdrop-filter: blur(8px);
+    color:#1e3a8a;
 }
 
 .hero-stat {
     padding: 15px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .hero-stat:last-child {
@@ -299,7 +301,6 @@ select:focus {
 /*recruiters*/
 .recruiters-section {
     padding: 70px 0;
-    background: #f7f9fc;
 }
 
 .section-heading {
