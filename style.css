@@ -240,17 +240,19 @@ select:focus {
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 10px;
-    background: rgba(255,255,255,0.7);
-    color:#1b2358
+    background: rgb(213, 234, 252,0.7);
+    color:#1b2358;
+    padding: 10px;
 }
 
 .hero p {
     color: #1b2358;
     max-width: 650px;
     font-size: 18px;
-    background: rgba(255,255,255,0.7);
-    backdrop-filter: blur(30px);
+    background: rgb(213, 234, 252,0.7);
     border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
 }
 
 .hero-buttons {
@@ -267,25 +269,24 @@ select:focus {
 .secondary-button {
     display: inline-block;
     padding: 13px 18px;
-    border: 1px solid #88bcf8;
+    background:rgb(255,255,255);
     border-radius: 10px;
-    color: #fff;
-    font-weight: 700;
+    color: rgb(30, 59, 138);
+    font-weight: 900;
     transition: 0.25s;
 }
 
 .secondary-button:hover {
-    background: #fff;
-    color: #1e3a8a;
+    background: rgb(30, 59, 138);
+    color: rgb(255,255,255);
 }
 
 .hero-stat-box {
-    background: rgba(255,255,255,0.1);
     border: 1px solid rgba(255,255,255,0.18);
     border-radius: 20px;
     padding: 28px;
-    backdrop-filter: blur(8px);
-    color:#1e3a8a;
+    background: rgb(213, 234, 252,0.7);
+    color:rgb(30, 59, 138);
 }
 
 .hero-stat {
